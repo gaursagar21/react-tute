@@ -18,9 +18,12 @@ class ShoppingList extends React.Component {
   }
 
 class Square extends React.Component {
+    fn(arg) {
+        alert(arg);
+    }
     render() {
       return (
-        <button className="square">
+        <button className="square" onClick={() => this.fn(this.props.value)}>
           {this.props.value}
         </button>
       );
