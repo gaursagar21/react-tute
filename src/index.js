@@ -2,42 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// class ShoppingList extends React.Component {
-//     render() {
-//       return (
-//         <div className="shopping-list">
-//           <h1>Shopping List for {this.props.name}</h1>
-//           <ul>
-//             <li>Instagram</li>
-//             <li>WhatsApp</li>
-//             <li>Oculus</li>
-//           </ul>
-//         </div>
-//       );
-//     }
-//   }
-
-// class Square extends React.Component {
-//     // fn(arg) {
-//     //     alert(arg);
-//     // }
-//     // constructor(props) {
-//     //     // super has to be explictly called.
-//     //     super(props);
-//     //     this.state = {
-//     //         value: null,
-//     //     };
-//     // }
-//     render() {
-//       return (
-//         <button className="square" onClick={() => this.props.onClick()}>
-//         {/* <button className="square" onClick={() => this.fn(this.props.value)}> */}
-//           {this.props.value}
-//         </button>
-//       );
-//     }
-//   }
-
 function Square(props) {
     return (
         <button className="square" onClick={props.onClick}>
