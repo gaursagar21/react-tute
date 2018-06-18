@@ -40,7 +40,7 @@ Shopping list is a **React Compomnent Class**, a kind of **React Compomnent Type
 
 ```yml
 RCC
-params: props
+params: props. Accessed using this.props.foo
 return: render() method
 ``` 
 
